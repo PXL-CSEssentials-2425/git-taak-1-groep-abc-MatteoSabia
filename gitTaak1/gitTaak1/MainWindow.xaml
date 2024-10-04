@@ -11,7 +11,7 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="74,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Kleurenpsychologie" IsEnabled="False"/>
         <Image x:Name="Logo" Source="media/PXL.png" HorizontalAlignment="Left" Height="100" Margin="647,23,0,0" VerticalAlignment="Top" Width="100"/>
-        <Image x:Name="Rood" Source="media/Rood.png" HorizontalAlignment="Left" Height="80" Margin="56,73,0,0"  VerticalAlignment="Top" Width="81" MouseEnter="Rood_MouseEnter" KeyDown="Rood_KeyDown" MouseDown="Rood_MouseDown"/>
+        <Image x:Name="Rood" Source="media/Rood.png" HorizontalAlignment="Left" Height="80" Margin="56,73,0,0"  VerticalAlignment="Top" Width="81" MouseEnter="Rood_MouseEnter"  MouseDown="Rood_MouseDown"/>
         <Image x:Name="Geel" Source="media/Geel.png" HorizontalAlignment="Left" Height="80" Margin="177,73,0,0"  VerticalAlignment="Top" Width="81" MouseEnter="Geel_MouseEnter" MouseDown="Geel_MouseDown"/>
         <Image x:Name="Groen" Source="media/Groen.png" HorizontalAlignment="Left" Height="80" Margin="56,0,0,0"  VerticalAlignment="Center" Width="81" MouseEnter="Groen_MouseEnter" MouseDown="Groen_MouseDown" />
         <Image x:Name="Blauw" Source="media/Blauw.png" HorizontalAlignment="Left" Height="80" Margin="177,0,0,0"  VerticalAlignment="Center" Width="81" MouseEnter="Blauw_MouseEnter" MouseDown="Blauw_MouseDown"/>

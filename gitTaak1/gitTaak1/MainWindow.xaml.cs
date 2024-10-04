@@ -51,15 +51,12 @@ namespace gitTaak1
             Venster.Background = blauw;
         }
 
-        private void Rood_KeyDown(object sender, KeyEventArgs e)
-        {
-            TxtKleurcode.Text = "#FF0000";
-           
-        }
+        
 
         private void Groen_MouseDown(object sender, MouseButtonEventArgs e)
         {
             TxtKleurcode.Text = "#008000";
+            TxtInformatie.Text = "Groen is de kleur van genezing";
         }
 
         
@@ -67,16 +64,19 @@ namespace gitTaak1
         private void Rood_MouseDown(object sender, MouseButtonEventArgs e)
         {
             TxtKleurcode.Text = "#FF0000";
+            TxtInformatie.Text = "Rood is de kleur van warmte";
         }
 
         private void Geel_MouseDown(object sender, MouseButtonEventArgs e)
         {
             TxtKleurcode.Text = "#FFFF00";
+            TxtInformatie.Text = "Geel is de kleur van levenslust";
         }
 
         private void Blauw_MouseDown(object sender, MouseButtonEventArgs e)
         {
             TxtKleurcode.Text = "#0000FF";
+            TxtInformatie.Text = "Blauw is de kleur van intelligentie";
         }
     }
 }
