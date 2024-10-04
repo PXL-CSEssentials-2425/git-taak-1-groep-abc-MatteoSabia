@@ -6,10 +6,15 @@
         xmlns:local="clr-namespace:gitTaak1"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
+        Name="Venster"
         Background="LightGray">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="74,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Kleurenpsychologie" IsEnabled="False"/>
         <Image x:Name="Logo" Source="media/PXL.png" HorizontalAlignment="Left" Height="100" Margin="647,23,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:Name="Rood" Source="media/Rood.png" HorizontalAlignment="Left" Height="80" Margin="56,73,0,0"  VerticalAlignment="Top" Width="81" MouseEnter="Rood_MouseEnter"/>
+        <Image x:Name="Geel" Source="media/Geel.png" HorizontalAlignment="Left" Height="80" Margin="177,73,0,0"  VerticalAlignment="Top" Width="81" MouseEnter="Geel_MouseEnter"/>
+        <Button x:Name="Groen"  HorizontalAlignment="Left" Height="80" Margin="56,0,0,0"  VerticalAlignment="Center" Width="81" MouseEnter="Groen_MouseEnter"/>
+        <Button x:Name="Blauw"  HorizontalAlignment="Left" Height="80" Margin="177,0,0,0"  VerticalAlignment="Center" Width="81" MouseEnter="Blauw_MouseEnter"/>
 
     </Grid>
 </Window>
