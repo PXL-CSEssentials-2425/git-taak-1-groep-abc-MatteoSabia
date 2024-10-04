@@ -29,12 +29,14 @@ namespace gitTaak1
         {
             SolidColorBrush red = new SolidColorBrush(Colors.Red);
             Venster.Background = red;
+            
         }
 
         private void Geel_MouseEnter(object sender, MouseEventArgs e)
         {
             SolidColorBrush yellow = new SolidColorBrush(Colors.Yellow);
             Venster.Background = yellow;
+            
         }
 
         private void Groen_MouseEnter(object sender, MouseEventArgs e)
@@ -47,6 +49,34 @@ namespace gitTaak1
         {
             SolidColorBrush blauw = new SolidColorBrush(Colors.Blue);
             Venster.Background = blauw;
+        }
+
+        private void Rood_KeyDown(object sender, KeyEventArgs e)
+        {
+            TxtKleurcode.Text = "#FF0000";
+           
+        }
+
+        private void Groen_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            TxtKleurcode.Text = "#008000";
+        }
+
+        
+
+        private void Rood_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            TxtKleurcode.Text = "#FF0000";
+        }
+
+        private void Geel_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            TxtKleurcode.Text = "#FFFF00";
+        }
+
+        private void Blauw_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            TxtKleurcode.Text = "#0000FF";
         }
     }
 }
