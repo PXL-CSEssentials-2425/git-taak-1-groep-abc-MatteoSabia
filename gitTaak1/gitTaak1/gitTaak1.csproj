@@ -20,7 +20,7 @@
     <Resource Include="media\Blauw.png" />
     <Resource Include="media\Geel.png" />
     <Resource Include="media\Groen.png" />
-    <Content Include="media\PXL.png" />
+    <Resource Include="media\PXL.png" />
     <Resource Include="media\Rood.png" />
   </ItemGroup>
 
